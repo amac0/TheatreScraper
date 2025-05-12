@@ -1,0 +1,48 @@
+**/data/**
+**/logs/**
+.env
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# Virtual environments
+venv/
+env/
+ENV/
+
+# OS specific files
+.DS_Store
+Thumbs.db
+
+# IDE specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Project specific
+data/snapshots/
+data/logs/
+config/local_settings.py
+chromedriver
+geckodriver

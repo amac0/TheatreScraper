@@ -1,0 +1,13 @@
+[Unit]
+Description=London Theater Scraper Service
+After=network.target
+
+[Service]
+Type=oneshot
+ExecStart=/usr/bin/podman exec TheatreScraper /var/home/a/Code/TheatreScraper/theater_scraper.sh
+StandardOutput=file:/var/home/a/theater-scraper-output.log
+StandardError=file:/var/home/a/theater-scraper-error.log
+WorkingDirectory=/var/home/a/Code/TheatreScraper
+
+[Install]
+WantedBy=multi-user.target
