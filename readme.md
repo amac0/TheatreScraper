@@ -1,5 +1,9 @@
 # London Theater Show Scraper
 
+⚠️ **Warning**: This was mostly coded with AI. I wrote about what I did here:
+https://www.bricoleur.org/2025/05/claude-code-theater-scraper.html
+Please don't rely on it for anything.
+
 ## Project Overview
 The London Theater Show Scraper is an automated tool that monitors London theater websites daily for new shows and updates to existing listings. It extracts show details, compares them against previous records, and sends email notifications about changes.
 
